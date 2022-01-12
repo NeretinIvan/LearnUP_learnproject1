@@ -1,3 +1,5 @@
+/* Default */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,19 +11,6 @@ body {
     color: #4A4A4A;
 }
 
-#block1 {
-    background: linear-gradient(0deg, rgba(255, 133, 22, 0.5), rgba(255, 133, 22, 0.5));
-    color: #ffffff;
-}
-
-#block1 h1 {
-    font-family: sans-serif;
-    font-weight: 800;
-    font-size: 56px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
 h2 {
     font-family: sans-serif;
     font-weight: 400;
@@ -30,22 +19,139 @@ h2 {
     text-transform: uppercase;
 }
 
+/* Block1 - CHOOSE FLUTTER TO CHOOSE BOTH */
+
+#block1 {
+    background: linear-gradient(0deg, rgba(255, 133, 22, 0.5), rgba(255, 133, 22, 0.5));
+    color: #ffffff;
+}
+
+#block1 h1 {
+    font-family: "FiraSans";
+    font-weight: 800;
+    font-size: 128px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Block2 - WORKSHOP */
+
 #block2 h2 {
     color: #000000;
 }
 
-#block4 h2 {
-    color: #000000;
+.content {
+    /*position: absolute;*/
+    
+    margin-left: 25.69%;
+    margin-right: 25.69%;
+    margin-top: 25.25%;
+    margin-bottom: 49.12%;
+
+    font-family: "SourceSansPro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    /* or 126% */
+
+    color: #4A4A4A;
 }
 
-#block6 h2 {
-    color: #000000;
-}
+/* Block3 - WHEN AND WHERE */
 
 #block3 h2 {
     color: #ffffff;
 }
 
+/* Block3 - WHO */
+
+#block4 h2 {
+    color: #000000;
+}
+
+/* Block5 - GET READY */
+
 #block5 h2 {
     color: #ffffff;
+}
+
+/* Block6 - ORGINIZERS */
+
+#block6 h2 {
+    color: #000000;
+}
+
+
+
+
+/* Connecting fonts */
+
+/* Fira Sans */
+
+@font-face {
+    font-family: "FiraSans"; 
+    src: url("./assets/fonts/Fira_Sans/FiraSans-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: "FiraSans"; 
+    src: url("./assets/fonts/Fira_Sans/FiraSans-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 700; 
+}
+
+@font-face {
+    font-family: "FiraSans"; 
+    src: url("./assets/fonts/Fira_Sans/FiraSans-ExtraBold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 800; 
+}
+
+/* Open Sans */
+
+@font-face {
+    font-family: "OpenSans"; 
+    src: url("./assets/fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: "OpenSans"; 
+    src: url("./assets/fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 700; 
+}
+
+@font-face {
+    font-family: "OpenSans"; 
+    src: url("./assets/fonts/OpenSans/OpenSans-ExtraBold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 800; 
+}
+
+/* Source Sans Pro */
+
+@font-face {
+    font-family: "SourceSansPro"; 
+    src: url("./assets/fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: "SourceSansPro"; 
+    src: url("./assets/fonts/SourceSansPro/SourceSansPro-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 700; 
+}
+
+@font-face {
+    font-family: "SourceSansPro"; 
+    src: url("./assets/fonts/SourceSansPro/SourceSansPro-ExtraBold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 800; 
 }
