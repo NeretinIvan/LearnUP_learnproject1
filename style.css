@@ -7,31 +7,27 @@
 }
 
 body {
-    font-size: 16px;
+    font-family: "SourceSansPro";
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: normal;
     color: #4A4A4A;
 }
 
 h2 {
-    font-family: sans-serif;
-    font-weight: 400;
+    font-family: "FiraSans";
+    font-weight: 500;
     font-size: 36px;
+    line-height: 36px;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 6px;
 }
-
+/*
 .content {
-    /*position: absolute;*/
-
     font-family: "SourceSansPro";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 24px;
-    /* or 126% */
-
-    color: #4A4A4A;
 }
-
+*/
 .layout {
     padding-left: 130px;
     padding-right: 130px;
@@ -50,11 +46,66 @@ h2 {
 }
 
 .logo svg path {
-    fill: deeppink;
+    fill: black;
 }
 
 .background-orange .logo svg path {
     fill: white;
+}
+
+.background-black .logo svg path {
+    fill: white;
+}
+
+.block-header-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.block-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+button {
+    width: 186px;
+    height: 66px;
+    color: white;
+    background: linear-gradient(0deg, #FF7E03, #FF7E03);
+    border: 0;
+
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.background-orange button {
+    color: #4A4A4A;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+
+.block-header button {
+    width: 146px;
+    height: 46px;
+    font-size: 14px;
+    line-height: 19px;
+    background: none;
+    color: #4A4A4A;
+    border: 1px solid #4A4A4A;
+    box-sizing: border-box;
+}
+
+.background-black .block-header button {
+    color: white;
+    border-color: white;
 }
 
 /* Block1 - CHOOSE FLUTTER TO CHOOSE BOTH */
@@ -67,19 +118,7 @@ h2 {
     text-transform: uppercase;
 }
 
-/* Block2 - WORKSHOP */
 
-
-/* Block3 - WHEN AND WHERE */
-
-
-/* Block3 - WHO */
-
-
-/* Block5 - GET READY */
-
-
-/* Block6 - ORGINIZERS */
 
 #block6 h2 {
     color: #000000;
