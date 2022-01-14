@@ -19,34 +19,8 @@ h2 {
     text-transform: uppercase;
 }
 
-/* Block1 - CHOOSE FLUTTER TO CHOOSE BOTH */
-
-#block1 {
-    background: linear-gradient(0deg, rgba(255, 133, 22, 0.5), rgba(255, 133, 22, 0.5));
-    color: #ffffff;
-}
-
-#block1 h1 {
-    font-family: "FiraSans";
-    font-weight: 800;
-    font-size: 128px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-/* Block2 - WORKSHOP */
-
-#block2 h2 {
-    color: #000000;
-}
-
 .content {
     /*position: absolute;*/
-    
-    margin-left: 25.69%;
-    margin-right: 25.69%;
-    margin-top: 25.25%;
-    margin-bottom: 49.12%;
 
     font-family: "SourceSansPro";
     font-style: normal;
@@ -58,23 +32,52 @@ h2 {
     color: #4A4A4A;
 }
 
-/* Block3 - WHEN AND WHERE */
+.layout {
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
 
-#block3 h2 {
+.background-orange {
+    background: linear-gradient(0deg, rgba(255, 133, 22, 0.5), rgba(255, 133, 22, 0.5));
     color: #ffffff;
 }
+
+.background-black {
+    color: #ffffff;
+    background-color: #353535;
+}
+
+.logo svg path {
+    fill: deeppink;
+}
+
+.background-orange .logo svg path {
+    fill: white;
+}
+
+/* Block1 - CHOOSE FLUTTER TO CHOOSE BOTH */
+
+#block1 h1 {
+    font-family: "FiraSans";
+    font-weight: 800;
+    font-size: 128px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Block2 - WORKSHOP */
+
+
+/* Block3 - WHEN AND WHERE */
+
 
 /* Block3 - WHO */
 
-#block4 h2 {
-    color: #000000;
-}
 
 /* Block5 - GET READY */
 
-#block5 h2 {
-    color: #ffffff;
-}
 
 /* Block6 - ORGINIZERS */
 
