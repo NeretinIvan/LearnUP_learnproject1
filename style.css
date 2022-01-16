@@ -24,11 +24,22 @@ h2 {
     letter-spacing: 6px;
 }
 
+h3 {
+    font-family: "FiraSans";
+    font-weight: 800;
+    letter-spacing: 0;
+    margin-bottom: 22px;
+}
+
 .content {
     padding-left: 25%;
     padding-right: 25%;
     padding-top: 40px;
     padding-bottom: 60px;
+}
+
+.content p {
+    margin-bottom: 15px;
 }
 
 .layout {
@@ -79,16 +90,11 @@ h2 {
 }
 
 .picture-box h3 {
-    font-family: "FiraSans";
-    font-weight: 800;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0;
-
     color: #FF7E03;
-    margin-bottom: 22px;
 }
 
 .picture-box-flex {
@@ -99,6 +105,77 @@ h2 {
     justify-content: space-between;
     column-gap: 80px;
     margin-bottom: 40px;
+}
+
+/* Block3 When and where structures */
+
+.grid_4x4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    box-sizing: border-box;
+    padding: 20px 70px 20px 70px;
+
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0;
+    border: 1px solid white;
+    margin-bottom: 60px;
+}
+
+.grid_4x4 h3 {
+    font-size: 48px;
+    line-height: 58px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.grid_4x4 p {
+    margin-bottom: 20px;
+}
+
+.grid_4x4 span {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.grid_4x4 .december-cost-style {
+    font-family: "SourceSansPro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.grid_4x4 .december-cost-style .december-text {
+    letter-spacing: 13px;
+}
+
+.grid_4x4 .december-cost-style .cost-text {
+    letter-spacing: 17px;
+}
+
+.grid_4x4 .free-2021-style {
+    font-family: "SourceSansPro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0;
+}
+
+.grid_4x4 .learnUp-style {
+    font-family: "FiraSans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /* Style of header with title, date and register button on top of each block */
