@@ -14,6 +14,11 @@ body {
     color: #4A4A4A;
 }
 
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 h2 {
     font-family: "FiraSans";
     font-weight: 500;
@@ -49,10 +54,17 @@ h3 {
     padding-bottom: 60px;
 }
 
+.center-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Backgrounds */
 
 .background-orange {
-    background: linear-gradient(0deg, rgba(255, 133, 22, 0.5), rgba(255, 133, 22, 0.5));
+    background-image: url(./assets/images/background_orange.jpg);
+    background-size: cover;
     color: #ffffff;
 }
 
@@ -73,6 +85,72 @@ h3 {
 
 .background-black .logo svg path {
     fill: white;
+}
+
+/* Block1 Choose Flutter to choose both */
+
+.human {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background-image: url(./assets/images/human.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    height: 669px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#block1.layout {
+    padding-bottom: 0;
+}
+
+.title-1 {
+    font-family: "OpenSans";
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 76px;
+    letter-spacing: 0.845em;
+}
+
+.title-2 {
+    font-family: "FiraSans";
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 85px;
+}
+
+.title-3 {
+    font-family: "OpenSans";
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.37em;
+}
+
+.human button {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.ios-android-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 865px;
+    margin-bottom: 5px;
+}
+
+.ios-android-caption {
+    font-family: "SourceSansPro";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
 }
 
 /* Block2 Workshop structures */
