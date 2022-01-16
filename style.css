@@ -23,17 +23,22 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 6px;
 }
-/*
+
 .content {
-    font-family: "SourceSansPro";
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
-*/
+
 .layout {
     padding-left: 130px;
     padding-right: 130px;
     padding-top: 50px;
     padding-bottom: 60px;
 }
+
+/* Backgrounds */
 
 .background-orange {
     background: linear-gradient(0deg, rgba(255, 133, 22, 0.5), rgba(255, 133, 22, 0.5));
@@ -44,6 +49,8 @@ h2 {
     color: #ffffff;
     background-color: #353535;
 }
+
+/* Logo color change */
 
 .logo svg path {
     fill: black;
@@ -57,19 +64,60 @@ h2 {
     fill: white;
 }
 
+/* Block2 Workshop structures */
+
+.picture-box {
+    font-size: 17px;
+    max-width: 340px;
+}
+
+.picture-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.picture-box h3 {
+    font-family: "FiraSans";
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0;
+
+    color: #FF7E03;
+    margin-bottom: 22px;
+}
+
+.picture-box-flex {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-basis: auto;
+    justify-content: space-between;
+    column-gap: 80px;
+    margin-bottom: 40px;
+}
+
+/* Style of header with title, date and register button on top of each block */
+
 .block-header-title {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .block-header {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
+
+/* Button style */
 
 button {
     width: 186px;
@@ -117,15 +165,6 @@ button {
     text-align: center;
     text-transform: uppercase;
 }
-
-
-
-#block6 h2 {
-    color: #000000;
-}
-
-
-
 
 /* Connecting fonts */
 
