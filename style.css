@@ -287,6 +287,71 @@ a {
     margin-bottom: 70px;
 }
 
+/* Block6 Organisers */
+
+#block6 .content {
+    font-family: "SourceSansPro";
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#block6 .content p {
+    margin-bottom: 20px;
+}
+
+.organisers-bottom-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-bottom: 100px;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.organisers-bottom-panel button {
+    height: 46px;
+    width: 206px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.organisers-bottom-panel .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.copyright-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.copyright-panel a {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    text-decoration: none;
+    color: #FF7E03;
+}
+
 /* Style of header with title, date and register button on top of each block */
 
 .block-header-title {
@@ -398,6 +463,13 @@ button {
 }
 
 /* Source Sans Pro */
+
+@font-face {
+    font-family: "SourceSansPro"; 
+    src: url("./assets/fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 200;
+}
 
 @font-face {
     font-family: "SourceSansPro"; 
