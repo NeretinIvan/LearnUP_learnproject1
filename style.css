@@ -407,6 +407,18 @@ button {
     border-color: white;
 }
 
+/* Button effects */
+
+button:active {
+    color: white;
+    border: none;
+    background: linear-gradient(90deg, #FC6F5C 0.72%, #FAA235 51.21%, #FB923B 99.57%);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 /* Connecting fonts */
 
 /* Fira Sans */
