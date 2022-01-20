@@ -56,6 +56,9 @@ a {
     padding-right: 130px;
     padding-top: 50px;
     padding-bottom: 60px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .center-button {
@@ -145,7 +148,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 865px;
+    gap: 820px;
     margin-bottom: 5px;
 }
 
@@ -295,8 +298,8 @@ a {
     font-size: 16px;
     line-height: 24px;
 
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 12%;
+    padding-right: 12%;
     padding-top: 40px;
     padding-bottom: 60px;
 }
