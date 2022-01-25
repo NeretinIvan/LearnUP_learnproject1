@@ -1,0 +1,48 @@
+button {
+    width: 186px;
+    height: 66px;
+    color: white;
+    background: linear-gradient(0deg, #FF7E03, #FF7E03);
+    border: 0;
+
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @at-root {
+        .background-orange #{&} {
+            color: #4A4A4A;
+            background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        }
+        .block-header #{&} {
+            width: 146px;
+            height: 46px;
+            font-size: 14px;
+            line-height: 19px;
+            background: none;
+            color: #4A4A4A;
+            border: 1px solid #4A4A4A;
+            box-sizing: border-box;
+        }
+        .background-black #{&} {
+            color: white;
+            border-color: white;
+        }
+    }
+
+    &:active {
+        color: white;
+        border: none;
+        background: linear-gradient(90deg, #FC6F5C 0.72%, #FAA235 51.21%, #FB923B 99.57%);
+    }
+    
+    &:hover {
+        cursor: pointer;
+    }    
+}
+
+
