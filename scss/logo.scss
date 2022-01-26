@@ -1,0 +1,13 @@
+.logo {
+    svg path {
+        fill: black;
+        @at-root {
+            .background-orange #{&} {
+                fill: white;
+            }
+            .background-black #{&} {
+                fill: white;
+            }
+        }
+    }
+}
