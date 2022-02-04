@@ -1,0 +1,106 @@
+@import '_breakpoints.scss';
+@import 'fonts.scss';
+@import 'button.scss';
+@import 'logo.scss';
+@import 'block1-human-title.scss';
+@import 'block2-picture-box.scss';
+@import 'block3-table.scss';
+@import 'block5-getready.scss';
+@import 'block6-organisers.scss';
+
+/* Default */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SourceSansPro";
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #4A4A4A;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "FiraSans";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+h3 {
+    font-family: "FiraSans";
+    font-weight: 800;
+    letter-spacing: 0;
+    margin-bottom: 22px;
+}
+
+a {
+    color: unset;
+}
+
+.content {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+    p {
+        margin-bottom: 15px;
+    }
+}
+
+.layout {
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @at-root {
+        #block1#{&} {
+            padding-bottom: 0;
+        }
+    }
+}
+
+/* Backgrounds */
+
+.background-orange {
+    color: #ffffff;
+    background-image: url(./assets/images/background_orange.jpg);
+    background-size: cover;
+}
+
+.background-black {
+    color: #ffffff;
+    background-color: #353535;
+}
+
+/* Style of header with title, date and register button on top of each block */
+
+.block-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    margin-bottom: 60px;
+
+    @at-root {
+        #block1 #{&} {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}

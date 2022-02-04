@@ -1,51 +1,437 @@
+/* Connecting fonts */
+/* Fira Sans */
+@font-face {
+  font-family: "FiraSans";
+  src: url("./assets/fonts/Fira_Sans/FiraSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "FiraSans";
+  src: url("./assets/fonts/Fira_Sans/FiraSans-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "FiraSans";
+  src: url("./assets/fonts/Fira_Sans/FiraSans-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "FiraSans";
+  src: url("./assets/fonts/Fira_Sans/FiraSans-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+/* Open Sans */
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/OpenSans/OpenSans-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+/* Source Sans Pro */
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("./assets/fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("./assets/fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("./assets/fonts/SourceSansPro/SourceSansPro-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("./assets/fonts/SourceSansPro/SourceSansPro-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+button {
+  width: 186px;
+  height: 66px;
+  color: white;
+  background-color: #FF7E03;
+  border: 0;
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.75s;
+  transition-timing-function: ease-in;
+}
+.background-orange button {
+  color: #4A4A4A;
+  background-color: white;
+}
+
+.block-header button {
+  width: 146px;
+  height: 46px;
+  font-size: 14px;
+  line-height: 19px;
+  background: none;
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  box-sizing: border-box;
+}
+
+.background-black button {
+  color: white;
+  border-color: white;
+}
+
+.center-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:active {
+  color: white;
+  border: none;
+  background: linear-gradient(90deg, #FC6F5C 0.72%, #FAA235 51.21%, #FB923B 99.57%);
+  background-color: #FB923B;
+  transition: 0s;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.logo svg path {
+  fill: black;
+}
+.background-orange .logo svg path {
+  fill: white;
+}
+
+.background-black .logo svg path {
+  fill: white;
+}
+
+/* Block1 Choose Flutter to choose both */
+.human {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(./assets/images/human.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  height: 669px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.human .title-1 {
+  font-family: "OpenSans";
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 76px;
+  letter-spacing: 0.845em;
+}
+.human .title-2 {
+  font-family: "FiraSans";
+  font-weight: 800;
+  font-size: 128px;
+  line-height: 85px;
+}
+.human .title-3 {
+  font-family: "OpenSans";
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: 0.37em;
+}
+.human button {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.human .ios-android-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 820px;
+  margin-bottom: 5px;
+}
+.human .ios-android-caption {
+  font-family: "SourceSansPro";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* Block2 Workshop picture box */
+.picture-box {
+  font-size: 17px;
+  max-width: 340px;
+}
+.picture-box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.picture-box h3 {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FF7E03;
+}
+
+/* flex, where picture boxes are placed in */
+.picture-box-flex {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  flex-basis: auto;
+  justify-content: space-between;
+  column-gap: 80px;
+  margin-bottom: 40px;
+}
+
+/* Block3 When and where structures */
+.grid_4x4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  box-sizing: border-box;
+  padding: 20px 70px 20px 70px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0;
+  border: 1px solid white;
+  margin-bottom: 60px;
+}
+.grid_4x4 h3 {
+  font-size: 48px;
+  line-height: 58px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.grid_4x4 p {
+  margin-bottom: 20px;
+}
+.grid_4x4 span {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.grid_4x4 .december-cost-style {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.grid_4x4 .december-cost-style .cost-text {
+  letter-spacing: 17px;
+}
+.grid_4x4 .free-2021-style {
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 80px;
+}
+.grid_4x4 .learnUp-style {
+  font-family: "FiraSans";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Block5 GetReady structures */
+.numered-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.numered-list li {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+}
+.numered-list p {
+  font-family: "SourceSansPro";
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+#block5 .center-button {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+/* Block6 Organisers */
+#block6 .content {
+  font-family: "SourceSansPro";
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+#block6 .content p {
+  margin-bottom: 20px;
+}
+
+.organisers-bottom-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 160px;
+  margin-bottom: 100px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.organisers-bottom-panel button {
+  height: 46px;
+  width: 206px;
+  font-size: 14px;
+  line-height: 19px;
+}
+.organisers-bottom-panel .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+}
+
+.copyright-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+}
+.copyright-panel a {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: right;
+  text-decoration: none;
+  color: #FF7E03;
+}
+
+/* Default */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-size: 16px;
-    color: #4A4A4A;
+  font-family: "SourceSansPro";
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #4A4A4A;
 }
 
-#block1 {
-    background: linear-gradient(0deg, rgba(255, 133, 22, 0.5), rgba(255, 133, 22, 0.5));
-    color: #ffffff;
-}
-
-#block1 h1 {
-    font-family: sans-serif;
-    font-weight: 800;
-    font-size: 56px;
-    text-align: center;
-    text-transform: uppercase;
+h1 {
+  text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
-    font-family: sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    text-align: center;
-    text-transform: uppercase;
+  font-family: "FiraSans";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 6px;
 }
 
-#block2 h2 {
-    color: #000000;
+h3 {
+  font-family: "FiraSans";
+  font-weight: 800;
+  letter-spacing: 0;
+  margin-bottom: 22px;
 }
 
-#block4 h2 {
-    color: #000000;
+a {
+  color: unset;
 }
 
-#block6 h2 {
-    color: #000000;
+.content {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.content p {
+  margin-bottom: 15px;
 }
 
-#block3 h2 {
-    color: #ffffff;
+.layout {
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#block1.layout {
+  padding-bottom: 0;
 }
 
-#block5 h2 {
-    color: #ffffff;
+/* Backgrounds */
+.background-orange {
+  color: #ffffff;
+  background-image: url(./assets/images/background_orange.jpg);
+  background-size: cover;
 }
+
+.background-black {
+  color: #ffffff;
+  background-color: #353535;
+}
+
+/* Style of header with title, date and register button on top of each block */
+.block-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  margin-bottom: 60px;
+}
+#block1 .block-header {
+  grid-template-columns: 1fr 1fr;
+}
+
+/*# sourceMappingURL=style.css.map */

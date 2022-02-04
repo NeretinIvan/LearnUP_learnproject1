@@ -1,0 +1,60 @@
+/* Block3 When and where structures */
+
+.grid_4x4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    box-sizing: border-box;
+    padding: 20px 70px 20px 70px;
+
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0;
+    border: 1px solid white;
+    margin-bottom: 60px;
+
+    h3 {
+        font-size: 48px;
+        line-height: 58px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+    span {
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    .december-cost-style {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 13px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        
+        .cost-text {
+            letter-spacing: 17px;
+        }
+    }
+    .free-2021-style {
+        font-weight: bold;
+        font-size: 96px;
+        line-height: 80px;
+    }
+    .learnUp-style {
+        font-family: "FiraSans";
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+/* Block6 Organisers */
+
+#block6 .content {
+    font-family: "SourceSansPro";
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.organisers-bottom-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-bottom: 100px;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+    button {
+        height: 46px;
+        width: 206px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+.copyright-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+
+    a {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: right;
+        text-decoration: none;
+        color: #FF7E03;
+    }
+}

@@ -1,0 +1,84 @@
+/* Connecting fonts */
+
+/* Fira Sans */
+
+@font-face {
+    font-family: "FiraSans"; 
+    src: url("./assets/fonts/Fira_Sans/FiraSans-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: "FiraSans"; 
+    src: url("./assets/fonts/Fira_Sans/FiraSans-Medium.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 500; 
+}
+
+@font-face {
+    font-family: "FiraSans"; 
+    src: url("./assets/fonts/Fira_Sans/FiraSans-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 700; 
+}
+
+@font-face {
+    font-family: "FiraSans"; 
+    src: url("./assets/fonts/Fira_Sans/FiraSans-ExtraBold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 800; 
+}
+
+/* Open Sans */
+
+@font-face {
+    font-family: "OpenSans"; 
+    src: url("./assets/fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: "OpenSans"; 
+    src: url("./assets/fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 700; 
+}
+
+@font-face {
+    font-family: "OpenSans"; 
+    src: url("./assets/fonts/OpenSans/OpenSans-ExtraBold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 800; 
+}
+
+/* Source Sans Pro */
+
+@font-face {
+    font-family: "SourceSansPro"; 
+    src: url("./assets/fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "SourceSansPro"; 
+    src: url("./assets/fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: "SourceSansPro"; 
+    src: url("./assets/fonts/SourceSansPro/SourceSansPro-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 700; 
+}
+
+@font-face {
+    font-family: "SourceSansPro"; 
+    src: url("./assets/fonts/SourceSansPro/SourceSansPro-ExtraBold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 800; 
+}
